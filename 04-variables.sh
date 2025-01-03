@@ -2,6 +2,12 @@
 
 echo "please enter your name:"
 
-read PERSON1
+read -s PERSON1
 
-echo $PERSON1
+echo "username entered: $PERSON1"
+
+echo "please enter you password:"
+
+read -s PASSWORD
+
+echo "password entered: $PASSWORD"

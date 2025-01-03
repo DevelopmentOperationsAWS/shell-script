@@ -4,4 +4,4 @@ echo "please enter your name:"
 
 read PERSON1
 
-echo PERSON1
+echo $PERSON1
